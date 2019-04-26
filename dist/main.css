@@ -15,12 +15,27 @@ main {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  margin: 10% 2% 0 2%; }
+
+img {
+  max-width: 25%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%); }
 
 h1 {
   font-size: 5rem;
   font-weight: 400;
-  font-style: italic; }
+  font-style: italic;
+  margin: 15% 0 10% 0; }
+
+#menu {
+  margin-bottom: 15%; }
 
 ul {
   margin: 0;

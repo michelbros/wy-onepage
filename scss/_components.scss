@@ -1,7 +1,15 @@
 body {
   background-color: $p-color;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
   display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  font-style: italic;
 }

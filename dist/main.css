@@ -3,9 +3,10 @@ body {
   font-family: Arial, Helvetica, sans-serif; }
 
 .body {
-  background-image: url("assets/1_web.jpg");
+  background-image: url("assets/bg.jpg");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
 
 main {
   display: -webkit-box;

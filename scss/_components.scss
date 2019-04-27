@@ -3,6 +3,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.body {
+  background-image: url('assets/1_web.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 main {
   display: flex;
   flex-flow: column wrap;
@@ -28,7 +34,7 @@ h1 {
 }
 
 #menu {
-  margin-bottom: 15%;
+  margin-bottom: 8%;
 }
 
 ul {
@@ -48,10 +54,25 @@ a {
   font-style: italic;
 }
 
+.white {
+  color: white;
+}
+
+.link-1:hover {
+  color: #ff8ffc;
+}
+
+.link-2:hover {
+  color: #00a718;
+}
+
+.link-3:hover {
+  color: #0632ff;
+}
+
 #content { 
   
   h1 {
-    color: black;
     font-size: 1.75rem;
     font-style: italic;
   }

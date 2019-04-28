@@ -2,12 +2,6 @@ body {
   background-color: #ffff72;
   font-family: Arial, Helvetica, sans-serif; }
 
-.body {
-  background-image: url("assets/bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
-
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,9 +51,6 @@ a {
   font-size: 1.75rem;
   font-style: italic; }
 
-.white {
-  color: white; }
-
 .link-1:hover {
   color: #ff8ffc; }
 
@@ -72,3 +63,28 @@ a {
 #content h1 {
   font-size: 1.75rem;
   font-style: italic; }
+
+.body {
+  background-image: url("assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.white {
+  color: white; }
+
+.fadeIn {
+  -webkit-animation: fadeIn 1s 1;
+  animation: fadeIn 1s 1; }
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }

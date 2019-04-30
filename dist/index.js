@@ -11,7 +11,7 @@ function changeText() {
 };
 
 function changeImages() {
-  bodyTag.classList.add('body');
+  bodyTag.style.backgroundImage = "url('assets/bg-bottom.jpg)";
   imgTag.src = "assets/softie_wink.gif";
 };
 
@@ -23,4 +23,5 @@ function initAnimation() {
 
 setInterval(changeText, 3000);
 setInterval(changeImages, 3000);
-setInterval(initAnimation,3001);
+setInterval(initAnimation, 3000);
+clearInterval(initAnimation);

@@ -1,0 +1,29 @@
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  h1 {
+    font-size: 3rem;
+  }
+  ul li {
+    padding: 0 3rem 0 3rem;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  img {
+    max-width: 50%
+  }
+  h1 {
+    font-size: 2.3rem;
+  }
+  ul li {
+    padding: 0 1rem 0 1rem;
+  }
+}
+
+@media only screen and (max-device-height : 568px) {
+  h1 {
+    font-size: 2rem;
+  }
+  ul li {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+} 

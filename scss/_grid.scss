@@ -9,20 +9,11 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-row-gap: 2%;
+  place-items: center;
 
   a {
     text-decoration: none;
     font-size: 1rem;
     color: white;
   }
-}
-
-.city-1 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.venue-1 {
-  grid-column-start: 3;
-  grid-column-end: 3;
 }

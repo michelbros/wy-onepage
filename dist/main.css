@@ -109,7 +109,11 @@ main {
   a {
     font-size: 1rem; }
   #menu {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+  .tour-container {
+    font-size: 0.8rem; }
+    .tour-container a {
+      font-size: 0.8rem; } }
 
 @media only screen and (max-device-height: 568px) {
   h1 {
@@ -119,4 +123,8 @@ main {
   a {
     font-size: 1rem; }
   #menu {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+  .tour-container {
+    font-size: 0.8rem; }
+    .tour-container a {
+      font-size: 0.8rem; } }

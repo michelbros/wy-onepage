@@ -5,17 +5,29 @@
   ul li {
     padding: 0 3rem 0 3rem;
   }
+  a {
+    font-size: 1.2rem;
+  }
+  #menu {
+    margin-bottom: 0;
+  }
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   img {
-    max-width: 50%
+    max-width: 30%
   }
   h1 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
   }
   ul li {
     padding: 0 1rem 0 1rem;
+  }
+  a {
+    font-size: 1rem;
+  }
+  #menu {
+    margin-bottom: 0;
   }
 }
 
@@ -25,5 +37,11 @@
   }
   ul li {
     padding: 0 0.5rem 0 0.5rem;
+  }
+  a {
+    font-size: 1rem;
+  }
+  #menu {
+    margin-bottom: 0;
   }
 } 
